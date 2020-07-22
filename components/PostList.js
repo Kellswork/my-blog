@@ -18,6 +18,13 @@ export default function PostList({ posts }) {
             )
           })}
       </ul>
+      <style jsx>{`
+      ul {
+        list-style: none;
+      }
+      `}
+
+      </style>
     </div>
   )
 }

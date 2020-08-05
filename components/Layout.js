@@ -3,9 +3,10 @@ import Header from "./Header";
 
 export default function Layout({ children, pageTitle, ...props }) {
   return (
-    <div class="layout">
+    <div className="layout">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oxygen:wght@300;400&display=swap" rel="stylesheet"></link>
         <title>{pageTitle}</title>
       </Head>
       <Header />

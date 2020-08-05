@@ -8,7 +8,12 @@ export default function Header() {
         <Nav />
         <div className='header-card'>
           <div className='card-image'>
-            <img />
+            <img src='/blog-image.jpg' alt='blog image'/>
+          </div>
+          <div className='card-icons'>
+            <img src='/linkedin.svg' alt='linkedin icon'/>
+            <img src='/github.svg' alt='github icon'/>
+            <img src='/twitter.svg' alt='twitter icon'/>
           </div>
           <div className='card-info'></div>
         </div>
@@ -20,6 +25,10 @@ export default function Header() {
         height: 100px;
         background: pink; 
        }
+       .card-image img {
+         width: 120px;
+       }
+
       `}</style>
     </>
   )

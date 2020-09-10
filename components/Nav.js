@@ -30,7 +30,7 @@ export default function Nav() {
             text-align: center;
           }
           img {
-            width: 120px;
+            width: 150px;
           }
           .menu {
             width: 50%;

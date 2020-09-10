@@ -5,7 +5,6 @@ import PostList from "../components/PostList";
 const Index = ({ posts, title, description, ...props }) => {
   return (
     <Layout pageTitle={title}>
-
       <main>
         <PostList posts={posts} />
       </main>

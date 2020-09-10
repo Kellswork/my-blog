@@ -1,6 +1,9 @@
 import Link from 'next/link'
+import getAllPostPreviews from '../getAllPostPreview'
 
-export default function PostList({ posts }) {
+// const posts = getAllPostPreviews()
+
+export default function PostList({posts}) {
   if (posts === 'undefined') return null
 
   return (
